@@ -11,9 +11,15 @@ local recipe = {
             amount = 1
         }
     },
-    result = "lubricant",
-    result_count = settings.startup["fl-setting"].value,
-    enabled = false
+    results = {
+        {
+            type = "fluid",
+            name = "lubricant",
+            amount = settings.startup["fl-setting"].value
+        }
+    },
+    enabled = false,
+    energy_required = 1
 }
 local tech = {
     type = "technology",

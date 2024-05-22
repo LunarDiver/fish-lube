@@ -12,7 +12,7 @@ local recipe = {
         }
     },
     result = "lubricant",
-    result_count = 5,
+    result_count = settings.startup["fl-setting"].value,
     enabled = false
 }
 local tech = {

@@ -1,0 +1,9 @@
+{
+    "name": "fish-lube",
+    "version": "0.1.0",
+    "title": "Fish Lube",
+    "description": "Allows you to make a small amount of lube out of fish. Early alternative for acquiring lubricant. Perfect for mods like AAI Loaders.",
+    "author": "Lunardiver",
+    "contact": "dev@lunardiver.com",
+    "factorio_version": "1.1"
+}
